@@ -20,6 +20,7 @@ prompts/
 │   ├── modernize-swift.md      # 现代化 Swift 代码
 │   └── mvvm-conversion.md      # 转换为 MVVM
 └── review/                      # 代码审查
+    ├── ai-code-review.md       # AI 代码 Review
     ├── security-check.md       # 安全检查
     ├── performance-audit.md    # 性能审计
     └── swift-style.md          # Swift 代码风格检查
@@ -89,6 +90,7 @@ custom_instructions: |
 | 提示词 | 场景 | 文件路径 |
 |--------|------|----------|
 | 单元测试生成 | 为 Swift 类生成 XCTest 测试 | [testing/unit-test.md](./testing/unit-test.md) |
+| AI 代码 Review | PR 或本地改动的系统化审查 | [review/ai-code-review.md](./review/ai-code-review.md) |
 | SwiftUI 组件生成 | 快速原型 UI 组件 | [code-generation/swiftui-component.md](./code-generation/swiftui-component.md)（计划中）|
 | 协议提取 | 重构为面向协议设计 | [refactoring/extract-protocol.md](./refactoring/extract-protocol.md)（计划中）|
 | 安全审计 | 检查常见安全漏洞 | [review/security-check.md](./review/security-check.md)（计划中）|
@@ -103,4 +105,4 @@ custom_instructions: |
 ---
 
 **维护者**：Loong (SSLoong)  
-**最后更新**：2026-10-23
+**最后更新**：2026-10-24
