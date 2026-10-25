@@ -321,12 +321,12 @@ AI 生成的测试需要人工确认：
 
 ## 🔗 相关工作流
 
-- [使用 AI 进行代码 Review](./ai-code-review.md)（开发中）
+- [使用 AI 进行代码 Review](./ai-code-review.md)
 - [Mock API 接口自动生成](./api-mock-generation.md)（计划中）
 - [重构遗留代码的测试保障](./refactoring-with-tests.md)（计划中）
 
 ---
 
 **作者**：Loong (SSLoong)  
-**更新日期**：2026-10-23  
+**更新日期**：2026-10-25  
 **适用工具**：Cursor、Claude Code、GitHub Copilot
