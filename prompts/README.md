@@ -89,6 +89,7 @@ custom_instructions: |
 | 提示词 | 场景 | 文件路径 |
 |--------|------|----------|
 | 单元测试生成 | 为 Swift 类生成 XCTest 测试 | [testing/unit-test.md](./testing/unit-test.md) |
+| AI 代码 Review | Swift/iOS PR 风险扫描与深度审查 | [review/ai-code-review.md](./review/ai-code-review.md) |
 | SwiftUI 组件生成 | 快速原型 UI 组件 | [code-generation/swiftui-component.md](./code-generation/swiftui-component.md)（计划中）|
 | 协议提取 | 重构为面向协议设计 | [refactoring/extract-protocol.md](./refactoring/extract-protocol.md)（计划中）|
 | 安全审计 | 检查常见安全漏洞 | [review/security-check.md](./review/security-check.md)（计划中）|
