@@ -13,6 +13,9 @@ examples/
 │   ├── Tests/
 │   │   └── UserManagerTests.swift     # 生成的测试代码
 │   └── README.md                      # 上下文设计说明
+├── swiftui-prototype/                  # SwiftUI 视图快速原型示例
+│   ├── ProfileHeaderView.swift
+│   └── README.md
 ├── swiftui-component/                  # SwiftUI 组件示例（计划中）
 └── networking-layer/                   # 网络层示例（计划中）
 ```
@@ -31,13 +34,26 @@ examples/
 - 如何生成可维护的 Mock 对象
 - 如何确保生成的测试符合项目规范
 
-### 2. SwiftUI 组件示例（计划中）
+### 2. SwiftUI 视图快速原型 (`swiftui-prototype/`)
 
-展示如何使用 AI 快速原型 SwiftUI 视图：
-- **场景**：从设计稿描述生成 SwiftUI 组件
+展示 AI 生成原型时应具备的代码结构：
+- **场景**：个人资料头部区域，含加载态与简单交互
+- **关键点**：DisplayData fixture、多状态 `#Preview`、原型边界注释
+- **成果**：可复制到 Xcode 验证 Canvas 与动态字体
+
+**适合学习**：
+- 如何在工作流中分「计划 → 代码 → 设计系统收敛」
+- 如何用 Preview 作为验收标准
+
+详见 [swiftui-prototype/README.md](./swiftui-prototype/README.md)。
+
+### 3. SwiftUI 组件示例（计划中）
+
+展示如何使用 AI 快速原型可复用 SwiftUI 组件：
+- **场景**：从设计稿描述生成通用 Cell / Card
 - **关键点**：提供设计规范、颜色系统、布局约束
 
-### 3. 网络层示例（计划中）
+### 4. 网络层示例（计划中）
 
 展示如何使用 AI 构建网络层：
 - **场景**：从 API 文档生成网络请求代码
@@ -93,9 +109,9 @@ examples/
    - 学习如何准备上下文
    - 理解 Mock 对象设计
    
-2. **进阶**：SwiftUI 组件示例（开发中）
-   - 学习从需求到代码的生成
-   - 掌握设计规范的表达
+2. **进阶**：[SwiftUI 原型示例](./swiftui-prototype/)
+   - 学习从需求到可 Preview 代码的生成
+   - 掌握设计规范的表达与多状态验收
 
 3. **高级**：多模块项目示例（计划中）
    - 学习复杂依赖的上下文设计
@@ -104,12 +120,14 @@ examples/
 ## 🔗 相关资源
 
 - [工作流：为 Swift 模块补充单元测试](../workflows/unit-test-generation.md)
+- [工作流：SwiftUI 视图快速原型](../workflows/swiftui-prototyping.md)
 - [提示词：单元测试生成](../prompts/testing/unit-test.md)
+- [提示词：SwiftUI 视图快速原型](../prompts/prototyping/swiftui-prototype.md)
 - [模板：Cursor Rules](../templates/cursor-rules/)
 
 ---
 
 **维护者**：Loong (SSLoong)  
-**最后更新**：2026-10-23
+**最后更新**：2026-10-27
 
 **欢迎贡献**：分享你的成功案例，帮助他人少走弯路！
