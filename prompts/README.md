@@ -8,26 +8,27 @@
 prompts/
 ├── README.md                    # 本文件
 ├── code-generation/             # 代码生成场景
-│   ├── swift-model.md          # Swift 模型类生成
-│   ├── swiftui-component.md    # SwiftUI 组件生成
-│   └── protocol-implementation.md  # 协议实现生成
+│   ├── swift-model.md          # Swift 模型类生成（计划中）
+│   ├── swiftui-component.md    # SwiftUI 组件生成（计划中）
+│   └── protocol-implementation.md  # 协议实现生成（计划中）
 ├── prototyping/                 # 原型与界面探索
-│   └── swiftui-prototype.md    # SwiftUI 视图快速原型
+│   └── swiftui-prototype.md    # SwiftUI 视图快速原型 ✅
 ├── testing/                     # 测试相关
-│   ├── unit-test.md            # 单元测试生成
-│   ├── mock-generation.md      # Mock 对象生成
-│   └── test-data-builder.md    # 测试数据构建
+│   ├── unit-test.md            # 单元测试生成 ✅
+│   ├── mock-generation.md      # Mock 对象生成（计划中）
+│   └── test-data-builder.md    # 测试数据构建（计划中）
 ├── mocking/                     # API Mock 生成
-│   ├── openapi-to-fixture.md   # 从 OpenAPI 生成 JSON Fixture
-│   └── protocol-to-urlprotocol.md  # 从 Swift Protocol 生成 URLProtocol Mock
-├── refactoring/                 # 重构场景
-│   ├── extract-protocol.md     # 提取协议
-│   ├── modernize-swift.md      # 现代化 Swift 代码
-│   └── mvvm-conversion.md      # 转换为 MVVM
+│   ├── openapi-to-fixture.md   # 从 OpenAPI 生成 JSON Fixture ✅
+│   └── protocol-to-urlprotocol.md  # 从 Swift Protocol 生成 URLProtocol Mock ✅
+├── refactoring/                 # 重构场景 ✅
+│   ├── extract-viewmodel.md    # 提取业务逻辑到 ViewModel ✅
+│   ├── optimize-layout.md      # 优化 UIViewController 布局代码 ✅
+│   └── protocol-oriented.md    # 重构为协议化设计 ✅
 └── review/                      # 代码审查
-    ├── security-check.md       # 安全检查
-    ├── performance-audit.md    # 性能审计
-    └── swift-style.md          # Swift 代码风格检查
+    ├── ai-code-review.md       # AI 代码 Review ✅
+    ├── security-check.md       # 安全检查（计划中）
+    ├── performance-audit.md    # 性能审计（计划中）
+    └── swift-style.md          # Swift 代码风格检查（计划中）
 ```
 
 ## 🚀 快速使用
@@ -98,8 +99,10 @@ custom_instructions: |
 | SwiftUI 视图快速原型 | 从需求生成可 Preview 的视图骨架 | [prototyping/swiftui-prototype.md](./prototyping/swiftui-prototype.md) |
 | OpenAPI 生成 Fixture | 从 OpenAPI 规范生成 JSON Mock 数据 | [mocking/openapi-to-fixture.md](./mocking/openapi-to-fixture.md) |
 | Protocol 生成 URLProtocol Mock | 从协议生成网络拦截 Mock | [mocking/protocol-to-urlprotocol.md](./mocking/protocol-to-urlprotocol.md) |
+| 提取 ViewModel | 将业务逻辑提取到 ViewModel | [refactoring/extract-viewmodel.md](./refactoring/extract-viewmodel.md) |
+| 优化布局代码 | 重构 UIViewController 布局代码 | [refactoring/optimize-layout.md](./refactoring/optimize-layout.md) |
+| 协议化重构 | 重构为面向协议设计 | [refactoring/protocol-oriented.md](./refactoring/protocol-oriented.md) |
 | SwiftUI 组件生成 | 快速原型 UI 组件 | [code-generation/swiftui-component.md](./code-generation/swiftui-component.md)（计划中）|
-| 协议提取 | 重构为面向协议设计 | [refactoring/extract-protocol.md](./refactoring/extract-protocol.md)（计划中）|
 | 安全审计 | 检查常见安全漏洞 | [review/security-check.md](./review/security-check.md)（计划中）|
 
 ## 🤝 贡献新提示词
