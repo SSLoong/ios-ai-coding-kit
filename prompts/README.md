@@ -17,6 +17,9 @@ prompts/
 │   ├── unit-test.md            # 单元测试生成
 │   ├── mock-generation.md      # Mock 对象生成
 │   └── test-data-builder.md    # 测试数据构建
+├── mocking/                     # API Mock 生成
+│   ├── openapi-to-fixture.md   # 从 OpenAPI 生成 JSON Fixture
+│   └── protocol-to-urlprotocol.md  # 从 Swift Protocol 生成 URLProtocol Mock
 ├── refactoring/                 # 重构场景
 │   ├── extract-protocol.md     # 提取协议
 │   ├── modernize-swift.md      # 现代化 Swift 代码
@@ -93,6 +96,8 @@ custom_instructions: |
 | 单元测试生成 | 为 Swift 类生成 XCTest 测试 | [testing/unit-test.md](./testing/unit-test.md) |
 | AI 代码 Review | Swift/iOS PR 风格扫描与深度审查 | [review/ai-code-review.md](./review/ai-code-review.md) |
 | SwiftUI 视图快速原型 | 从需求生成可 Preview 的视图骨架 | [prototyping/swiftui-prototype.md](./prototyping/swiftui-prototype.md) |
+| OpenAPI 生成 Fixture | 从 OpenAPI 规范生成 JSON Mock 数据 | [mocking/openapi-to-fixture.md](./mocking/openapi-to-fixture.md) |
+| Protocol 生成 URLProtocol Mock | 从协议生成网络拦截 Mock | [mocking/protocol-to-urlprotocol.md](./mocking/protocol-to-urlprotocol.md) |
 | SwiftUI 组件生成 | 快速原型 UI 组件 | [code-generation/swiftui-component.md](./code-generation/swiftui-component.md)（计划中）|
 | 协议提取 | 重构为面向协议设计 | [refactoring/extract-protocol.md](./refactoring/extract-protocol.md)（计划中）|
 | 安全审计 | 检查常见安全漏洞 | [review/security-check.md](./review/security-check.md)（计划中）|
@@ -107,4 +112,4 @@ custom_instructions: |
 ---
 
 **维护者**：Loong (SSLoong)  
-**最后更新**：2026-10-27
+**最后更新**：2026-10-28

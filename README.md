@@ -88,10 +88,10 @@ AI 的输出质量 = 上下文质量 × 模型能力。在 iOS 项目中：
 - [为 Swift 模块补充单元测试](./workflows/unit-test-generation.md) ✅ 已完成
 - [使用 AI 进行代码 Review](./workflows/ai-code-review.md) ✅ 已完成
 - [SwiftUI 视图快速原型](./workflows/swiftui-prototyping.md) ✅ 已完成
+- [API 接口自动生成 Mock](./workflows/api-mock-generation.md) ✅ 已完成
 
 ### 进阶
 - [重构遗留 UIKit 代码](./workflows/uikit-refactoring.md) 🚧 计划中
-- [API 接口自动生成 Mock](./workflows/api-mock-generation.md) 🚧 计划中
 - [多模块架构的上下文设计](./workflows/multi-module-context.md) 🚧 计划中
 
 ## 🤝 如何贡献
