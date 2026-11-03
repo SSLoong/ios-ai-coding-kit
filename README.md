@@ -92,6 +92,7 @@ AI 的输出质量 = 上下文质量 × 模型能力。在 iOS 项目中：
 
 ### 进阶
 - [重构遗留 UIKit 代码](./workflows/uikit-refactoring.md) ✅ 已完成
+- [Crash 日志符号化与根因分析](./workflows/crash-analysis.md) ✅ 新增
 - [多模块架构的上下文设计](./workflows/multi-module-context.md) 🚧 计划中
 
 ## 🤝 如何贡献
