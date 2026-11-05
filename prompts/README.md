@@ -27,6 +27,9 @@ prompts/
 ├── concurrency/                 # Swift Concurrency 迁移 ✅
 │   ├── risk-scan.md            # 扫描迁移风险与生成计划 ✅
 │   └── migrate-snippet.md      # 迁移单个方法到 async/await ✅
+├── accessibility/               # 无障碍审计与修复 ✅
+│   ├── audit-checklist.md      # 无障碍审计清单生成 ✅
+│   └── fix-suggestions.md      # 无障碍问题修复建议 ✅
 └── review/                      # 代码审查
     ├── ai-code-review.md       # AI 代码 Review ✅
     ├── security-check.md       # 安全检查（计划中）
@@ -107,6 +110,8 @@ custom_instructions: |
 | 协议化重构 | 重构为面向协议设计 | [refactoring/protocol-oriented.md](./refactoring/protocol-oriented.md) |
 | Swift Concurrency 风险扫描 | 扫描异步代码迁移风险与生成计划 | [concurrency/risk-scan.md](./concurrency/risk-scan.md) |
 | 迁移方法到 async/await | 单个方法迁移到 Swift Concurrency | [concurrency/migrate-snippet.md](./concurrency/migrate-snippet.md) |
+| 无障碍审计清单生成 | 为 iOS 代码生成完整无障碍审计清单 | [accessibility/audit-checklist.md](./accessibility/audit-checklist.md) |
+| 无障碍问题修复建议 | 生成无障碍问题的详细修复方案 | [accessibility/fix-suggestions.md](./accessibility/fix-suggestions.md) |
 | SwiftUI 组件生成 | 快速原型 UI 组件 | [code-generation/swiftui-component.md](./code-generation/swiftui-component.md)（计划中）|
 | 安全审计 | 检查常见安全漏洞 | [review/security-check.md](./review/security-check.md)（计划中）|
 
@@ -120,4 +125,4 @@ custom_instructions: |
 ---
 
 **维护者**：Loong (SSLoong)  
-**最后更新**：2026-11-01
+**最后更新**：2026-11-05
