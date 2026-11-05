@@ -17,6 +17,10 @@ prompts/
 │   ├── unit-test.md            # 单元测试生成 ✅
 │   ├── mock-generation.md      # Mock 对象生成（计划中）
 │   └── test-data-builder.md    # 测试数据构建（计划中）
+├── uitesting/                   # UI 自动化测试（XCUITest）✅
+│   ├── test-case-planning.md   # UI 测试用例规划 ✅
+│   ├── page-object-generation.md  # Page Object 生成 ✅
+│   └── flaky-test-diagnosis.md # Flaky 测试诊断与修复 ✅
 ├── mocking/                     # API Mock 生成
 │   ├── openapi-to-fixture.md   # 从 OpenAPI 生成 JSON Fixture ✅
 │   └── protocol-to-urlprotocol.md  # 从 Swift Protocol 生成 URLProtocol Mock ✅
@@ -111,6 +115,9 @@ custom_instructions: |
 | 提示词 | 场景 | 文件路径 |
 |--------|------|----------|
 | 单元测试生成 | 为 Swift 类生成 XCTest 测试 | [testing/unit-test.md](./testing/unit-test.md) |
+| UI 测试用例规划 | XCUITest 测试计划与用例设计 | [uitesting/test-case-planning.md](./uitesting/test-case-planning.md) |
+| Page Object 生成 | 生成 XCUITest Page Object 模型 | [uitesting/page-object-generation.md](./uitesting/page-object-generation.md) |
+| Flaky 测试诊断 | 诊断并修复不稳定的 UI 测试 | [uitesting/flaky-test-diagnosis.md](./uitesting/flaky-test-diagnosis.md) |
 | AI 代码 Review | Swift/iOS PR 风格扫描与深度审查 | [review/ai-code-review.md](./review/ai-code-review.md) |
 | SwiftUI 视图快速原型 | 从需求生成可 Preview 的视图骨架 | [prototyping/swiftui-prototype.md](./prototyping/swiftui-prototype.md) |
 | OpenAPI 生成 Fixture | 从 OpenAPI 规范生成 JSON Mock 数据 | [mocking/openapi-to-fixture.md](./mocking/openapi-to-fixture.md) |
