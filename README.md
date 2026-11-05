@@ -96,7 +96,7 @@ AI 的输出质量 = 上下文质量 × 模型能力。在 iOS 项目中：
 - [iOS 无障碍审计与修复](./workflows/accessibility-audit.md) ✅ 已完成
 - [Instruments 性能诊断](./workflows/performance-profiling.md) ✅ 已完成
 - [Crash 日志符号化与根因分析](./workflows/crash-analysis.md) ✅ 已完成
-- [多模块架构的上下文设计](./workflows/multi-module-context.md) 🚧 计划中
+- [多模块架构的上下文设计](./workflows/multi-module-context.md) ✅ 已完成
 
 ## 🤝 如何贡献
 

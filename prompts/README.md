@@ -36,6 +36,10 @@ prompts/
 ├── crash/                       # 崩溃分析 ✅
 │   ├── symbolicate-and-triage.md  # 符号化后栈解读与分诊 ✅
 │   └── root-cause-hypothesis.md   # 根因假设与修复草案 ✅
+├── architecture/                # 架构与上下文设计 ✅
+│   ├── generate-dependency-graph.md  # 生成模块依赖图 ✅
+│   ├── generate-module-context.md    # 生成模块上下文文档 ✅
+│   └── review-api-changes.md         # 审查公开 API 变更影响 ✅
 └── review/                      # 代码审查
     ├── ai-code-review.md       # AI 代码 Review ✅
     ├── security-check.md       # 安全检查（计划中）
@@ -122,6 +126,9 @@ custom_instructions: |
 | 循环引用审计 | 分析内存泄漏和循环引用并提供修复方案 | [performance/retain-cycle-audit.md](./performance/retain-cycle-audit.md) |
 | Crash 符号化与分诊 | 快速识别崩溃类型与问题模块 | [crash/symbolicate-and-triage.md](./crash/symbolicate-and-triage.md) |
 | 根因假设与修复 | 深入分析崩溃根因并生成修复方案 | [crash/root-cause-hypothesis.md](./crash/root-cause-hypothesis.md) |
+| 生成模块依赖图 | 分析多模块项目依赖关系生成 Mermaid 图 | [architecture/generate-dependency-graph.md](./architecture/generate-dependency-graph.md) |
+| 生成模块上下文文档 | 为模块生成 MODULE_CONTEXT.md 记录公开 API | [architecture/generate-module-context.md](./architecture/generate-module-context.md) |
+| 审查 API 变更影响 | 分析公开 API 变更的影响范围与迁移方案 | [architecture/review-api-changes.md](./architecture/review-api-changes.md) |
 | SwiftUI 组件生成 | 快速原型 UI 组件 | [code-generation/swiftui-component.md](./code-generation/swiftui-component.md)（计划中）|
 | 安全审计 | 检查常见安全漏洞 | [review/security-check.md](./review/security-check.md)（计划中）|
 
