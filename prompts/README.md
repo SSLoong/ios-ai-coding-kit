@@ -24,6 +24,18 @@ prompts/
 │   ├── extract-viewmodel.md    # 提取业务逻辑到 ViewModel ✅
 │   ├── optimize-layout.md      # 优化 UIViewController 布局代码 ✅
 │   └── protocol-oriented.md    # 重构为协议化设计 ✅
+├── concurrency/                 # Swift Concurrency 迁移 ✅
+│   ├── risk-scan.md            # 扫描迁移风险与生成计划 ✅
+│   └── migrate-snippet.md      # 迁移单个方法到 async/await ✅
+├── accessibility/               # 无障碍审计与修复 ✅
+│   ├── audit-checklist.md      # 无障碍审计清单生成 ✅
+│   └── fix-suggestions.md      # 无障碍问题修复建议 ✅
+├── performance/                 # 性能优化 ✅
+│   ├── time-profiler-hotspot.md    # Time Profiler 热点分析 ✅
+│   └── retain-cycle-audit.md       # 循环引用审计 ✅
+├── crash/                       # 崩溃分析 ✅
+│   ├── symbolicate-and-triage.md  # 符号化后栈解读与分诊 ✅
+│   └── root-cause-hypothesis.md   # 根因假设与修复草案 ✅
 ├── architecture/                # 架构与上下文设计 ✅
 │   ├── generate-dependency-graph.md  # 生成模块依赖图 ✅
 │   ├── generate-module-context.md    # 生成模块上下文文档 ✅
@@ -106,6 +118,14 @@ custom_instructions: |
 | 提取 ViewModel | 将业务逻辑提取到 ViewModel | [refactoring/extract-viewmodel.md](./refactoring/extract-viewmodel.md) |
 | 优化布局代码 | 重构 UIViewController 布局代码 | [refactoring/optimize-layout.md](./refactoring/optimize-layout.md) |
 | 协议化重构 | 重构为面向协议设计 | [refactoring/protocol-oriented.md](./refactoring/protocol-oriented.md) |
+| Swift Concurrency 风险扫描 | 扫描异步代码迁移风险与生成计划 | [concurrency/risk-scan.md](./concurrency/risk-scan.md) |
+| 迁移方法到 async/await | 单个方法迁移到 Swift Concurrency | [concurrency/migrate-snippet.md](./concurrency/migrate-snippet.md) |
+| 无障碍审计清单生成 | 为 iOS 代码生成完整无障碍审计清单 | [accessibility/audit-checklist.md](./accessibility/audit-checklist.md) |
+| 无障碍问题修复建议 | 生成无障碍问题的详细修复方案 | [accessibility/fix-suggestions.md](./accessibility/fix-suggestions.md) |
+| Time Profiler 热点分析 | 分析 Instruments Time Profiler 数据定位性能瓶颈 | [performance/time-profiler-hotspot.md](./performance/time-profiler-hotspot.md) |
+| 循环引用审计 | 分析内存泄漏和循环引用并提供修复方案 | [performance/retain-cycle-audit.md](./performance/retain-cycle-audit.md) |
+| Crash 符号化与分诊 | 快速识别崩溃类型与问题模块 | [crash/symbolicate-and-triage.md](./crash/symbolicate-and-triage.md) |
+| 根因假设与修复 | 深入分析崩溃根因并生成修复方案 | [crash/root-cause-hypothesis.md](./crash/root-cause-hypothesis.md) |
 | 生成模块依赖图 | 分析多模块项目依赖关系生成 Mermaid 图 | [architecture/generate-dependency-graph.md](./architecture/generate-dependency-graph.md) |
 | 生成模块上下文文档 | 为模块生成 MODULE_CONTEXT.md 记录公开 API | [architecture/generate-module-context.md](./architecture/generate-module-context.md) |
 | 审查 API 变更影响 | 分析公开 API 变更的影响范围与迁移方案 | [architecture/review-api-changes.md](./architecture/review-api-changes.md) |
@@ -122,4 +142,4 @@ custom_instructions: |
 ---
 
 **维护者**：Loong (SSLoong)  
-**最后更新**：2026-10-28
+**最后更新**：2026-11-05
