@@ -33,6 +33,9 @@ prompts/
 ├── performance/                 # 性能优化 ✅
 │   ├── time-profiler-hotspot.md    # Time Profiler 热点分析 ✅
 │   └── retain-cycle-audit.md       # 循环引用审计 ✅
+├── crash/                       # 崩溃分析 ✅
+│   ├── symbolicate-and-triage.md  # 符号化后栈解读与分诊 ✅
+│   └── root-cause-hypothesis.md   # 根因假设与修复草案 ✅
 └── review/                      # 代码审查
     ├── ai-code-review.md       # AI 代码 Review ✅
     ├── security-check.md       # 安全检查（计划中）
@@ -117,6 +120,8 @@ custom_instructions: |
 | 无障碍问题修复建议 | 生成无障碍问题的详细修复方案 | [accessibility/fix-suggestions.md](./accessibility/fix-suggestions.md) |
 | Time Profiler 热点分析 | 分析 Instruments Time Profiler 数据定位性能瓶颈 | [performance/time-profiler-hotspot.md](./performance/time-profiler-hotspot.md) |
 | 循环引用审计 | 分析内存泄漏和循环引用并提供修复方案 | [performance/retain-cycle-audit.md](./performance/retain-cycle-audit.md) |
+| Crash 符号化与分诊 | 快速识别崩溃类型与问题模块 | [crash/symbolicate-and-triage.md](./crash/symbolicate-and-triage.md) |
+| 根因假设与修复 | 深入分析崩溃根因并生成修复方案 | [crash/root-cause-hypothesis.md](./crash/root-cause-hypothesis.md) |
 | SwiftUI 组件生成 | 快速原型 UI 组件 | [code-generation/swiftui-component.md](./code-generation/swiftui-component.md)（计划中）|
 | 安全审计 | 检查常见安全漏洞 | [review/security-check.md](./review/security-check.md)（计划中）|
 
