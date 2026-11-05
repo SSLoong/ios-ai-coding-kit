@@ -30,6 +30,9 @@ prompts/
 ├── accessibility/               # 无障碍审计与修复 ✅
 │   ├── audit-checklist.md      # 无障碍审计清单生成 ✅
 │   └── fix-suggestions.md      # 无障碍问题修复建议 ✅
+├── performance/                 # 性能优化 ✅
+│   ├── time-profiler-hotspot.md    # Time Profiler 热点分析 ✅
+│   └── retain-cycle-audit.md       # 循环引用审计 ✅
 └── review/                      # 代码审查
     ├── ai-code-review.md       # AI 代码 Review ✅
     ├── security-check.md       # 安全检查（计划中）
@@ -112,6 +115,8 @@ custom_instructions: |
 | 迁移方法到 async/await | 单个方法迁移到 Swift Concurrency | [concurrency/migrate-snippet.md](./concurrency/migrate-snippet.md) |
 | 无障碍审计清单生成 | 为 iOS 代码生成完整无障碍审计清单 | [accessibility/audit-checklist.md](./accessibility/audit-checklist.md) |
 | 无障碍问题修复建议 | 生成无障碍问题的详细修复方案 | [accessibility/fix-suggestions.md](./accessibility/fix-suggestions.md) |
+| Time Profiler 热点分析 | 分析 Instruments Time Profiler 数据定位性能瓶颈 | [performance/time-profiler-hotspot.md](./performance/time-profiler-hotspot.md) |
+| 循环引用审计 | 分析内存泄漏和循环引用并提供修复方案 | [performance/retain-cycle-audit.md](./performance/retain-cycle-audit.md) |
 | SwiftUI 组件生成 | 快速原型 UI 组件 | [code-generation/swiftui-component.md](./code-generation/swiftui-component.md)（计划中）|
 | 安全审计 | 检查常见安全漏洞 | [review/security-check.md](./review/security-check.md)（计划中）|
 
